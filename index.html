@@ -8,19 +8,17 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
-    <!-- Banner Section -->
     <section id="banner">
         <img src="images/rb_2149244756.png" class="logo" alt="Logo">
         <div class="banner-text">
             <h1>Welcome To My Website</h1>
             <p>I am a student in audiovisual studies</p>
             <div class="banner-btn">
-                <a href="#"> <span></span>I hope u like it</a>
+                <a href="#"><span></span>I hope u like it</a>
             </div>
         </div>
     </section>
 
-    <!-- Navigation -->
     <div id="sideNav">
         <nav>
             <ul>
@@ -34,7 +32,6 @@
         <img src="images/MENU.png" id="MENU" alt="Menu Button">
     </div>
 
-    <!-- About Me Section -->
     <section id="AboutMe">
         <div class="title-text">
             <p>About Me</p>
@@ -42,46 +39,43 @@
         </div>
         <div class="AboutMe-box">
             <div class="AboutMe">
-                <h1>Aabir Eshaïmi</h1>
+                <h1>Aabir Eshaimi</h1>
                 <div class="AboutMe-desc">
-                    <div class="AboutMe-icon"></div>
                     <div class="AboutMe-text">
-                        <p>I am a student in audiovisual studies and a designer.</p>
+                        <p>I am a student in audiovisual studies, and designer</p>
                     </div>
                 </div>
-                <div class="AboutMe-img">
-                    <img src="images/LL.jpeg" alt="About Me Image">
-                </div>
+            </div>
+            <div class="AboutMe-img">
+                <img src="images/LL.jpeg" alt="Aabir's Picture">
             </div>
         </div>
     </section>
 
-    <!-- Pictures Section -->
     <section id="picture">
         <div class="title-text">
             <p>Pictures</p>
             <h1>Sebou River</h1>
         </div>
         <div class="picture-box">
-            <div class="single-picture">
+            <div class="single-pictuer">
                 <img src="images/AA (1).jpeg" alt="Picture 1">
             </div>
-            <div class="single-picture">
+            <div class="single-pictuer">
                 <img src="images/II.jpeg" alt="Picture 2">
             </div>
-            <div class="single-picture">
+            <div class="single-pictuer">
                 <img src="images/BB.jpeg" alt="Picture 3">
             </div>
-            <div class="single-picture">
+            <div class="single-pictuer">
                 <img src="images/RR.jpeg" alt="Picture 4">
             </div>
         </div>
     </section>
 
-    <!-- Copyright Section -->
     <section id="Copyright">
         <div class="title-text">
-            <p>Copyright © 2024 Aabir Eshaïmi</p>
+            <p>Copyright © 2024 Aabir Eshaimi</p>
         </div>
     </section>
 
@@ -93,7 +87,7 @@
         sideNav.style.right = "-250px";
 
         menuBtn.onclick = function () {
-            if (sideNav.style.right == "-250px") {
+            if (sideNav.style.right === "-250px") {
                 sideNav.style.right = "0";
                 MENU.src = "images/CLOSE.png";
             } else {
